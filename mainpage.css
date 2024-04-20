@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height: 120px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 120px;
+}
+#box1{
+    width: 250px;
+}
+#box2{
+    width: 900px;
+    background-color: #e96de9;
+    text-align: center;
+}
+#clgname{
+    color: white;
+    font-size: 28px;
+}
+#text{
+    font-size:18px ;
+    color: rgb(213, 199, 224);
+}
+#text1{
+    font-size: 20px;
+    color: rgb(72, 0, 139);
+}
+#scrolltext{
+    font-size:20px;
+    font-style: italic;
+    
+}
+.navigation{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    float: left;
+    width: 129px;
+    text-align: center;
+    line-height: 60px;
+    background-color: rgb(181, 172, 235);
+    position: relative;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    border-radius: 6px;
+
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: rgb(36, 36, 117);
+    font-size: 20px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 230px;
+    background-color: lemonchiffon;
+}
+ul li ul li ul li{
+    width: 310px;
+    margin-left: 250px;
+}
+ul ul ul{
+    top: 1px;
+}
+ul li:hover{
+    background-color: lightgreen;
+}
+ul li ul li:hover{
+    background-color: darkseagreen;
+}
+.arrow{
+    color: aqua;
+    font-size: 10px;
+}
+.obox{
+    border: solid 1px;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 380px;
+}
+#in1{
+   width: 630px;
+   background-image: url(download.jpeg);
+   background-repeat: no-repeat;
+   background-size: 630px 380px;
+   animation-name: imageschanging;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   )
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(images\ \(1\).jpeg);
+    }
+    20%{
+        background-image: url(images\ \(2\).jpeg);
+    }
+    30%{
+        background-image: url(images.jpeg);
+    }
+    40%{
+        background-image: url(images\ \(3\).jpeg);
+    }
+}
+#in2,#in3{
+    width: 250px;
+}
+.out{
+    border: solid 1px;
+    height: 158px;
+    background-color: rgb(38, 203, 253);
+}
+#logo{
+    padding-right: 200px ;
+}
